@@ -9,3 +9,5 @@ function sumValues(list) {
 }
 
 sumValues([1, 2, 3, 4, 5]);
+
+// it doestn take more than five numbers 

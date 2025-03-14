@@ -6,4 +6,6 @@ function calculateMean(list) {
 };
 
 
+
 module.exports = calculateMean;  // exports our function 
+
