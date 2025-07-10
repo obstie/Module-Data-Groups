@@ -19,9 +19,16 @@ test.todo("given an empty array, returns 0")
 // When passed to the sum function
 // Then it should return that number
 
+test("given an array with one number, returns that number", () => {
+  expect(sum([15])).toEqual(15);
+});     
+
 // Given an array containing negative numbers
 // When passed to the sum function
 // Then it should still return the correct total sum
+test("array with negative numbers, returns correct sum", () => {
+  expect(sum([-10, -20, -30])).toEqual(-60);
+}); 
 
 // Given an array with decimal/float numbers
 // When passed to the sum function
