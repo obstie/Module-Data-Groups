@@ -12,6 +12,7 @@
 
 
 function calculateMedian(list) {
+
      if (!Array.isArray(list)) return null;
           const numFilter = list.filter(item => typeof item === "number"); // Filter out non-numeric values 
 
@@ -26,6 +27,7 @@ function calculateMedian(list) {
      else {
           return sorted[midNum];// Returns middle number for odd arrays
      }
+
 }
 
 
