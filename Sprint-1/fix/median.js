@@ -28,7 +28,9 @@ function calculateMedian(list) {
           return sorted[midNum];// Returns middle number for odd arrays
      }
 
-}
+};
+
+
 
 
 
