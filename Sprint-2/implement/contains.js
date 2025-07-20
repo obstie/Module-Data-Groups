@@ -1,13 +1,3 @@
-// array = [1, 2, 3, 4, 5];
-// function contains(inputField) {
-//     for(const inputField of array) {
-//         if (inputField === 1) {
-//             return true;
-//         }       
-//     }
-// }
-// console.log(contains([])); // true
-
 
  const object = {
     a: 1,
